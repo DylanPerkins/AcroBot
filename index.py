@@ -10,7 +10,7 @@ client = CustomClient(
     config=config,
     token=config.discord_token,
     sync=config.discord_sync.lower() == "true",
-    enable_gateway=True,
+    disable_http_server=True,
     intents=(Intents.message_content | Intents.guild_messages)
 )
 

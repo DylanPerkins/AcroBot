@@ -12,8 +12,6 @@ class CustomClient(discord_http.Client):
         self.acronyms = AcronymStore()
 
         kwargs.setdefault("token", config.discord_token)
-        kwargs.setdefault("application_id", config.discord_application_id)
-        kwargs.setdefault("public_key", config.discord_public_key)
         kwargs.setdefault("sync", config.discord_sync.lower() == "true")
 
         super().__init__(*args, **kwargs)
