@@ -1,0 +1,37 @@
+{
+    "template": {
+        "suggested_acronym": "",
+        "title": "",
+        "url": "https://www.amazon.com/dp/",
+        "book_count": 0,
+        "completed_status": ""
+    },
+    "ph": {
+        "suggested_acronym": "PH",
+        "title": "The Primal Hunter",
+        "url": "https://www.amazon.com/dp/B09MV5TTSM",
+        "book_count": 17,
+        "completed_status": "No"
+    },
+    "hwfwm": {
+        "suggested_acronym": "HWFWM",
+        "title": "He Who Fights with Monsters",
+        "url": "https://www.amazon.com/dp/B0GGDLNK6B",
+        "book_count": 13,
+        "completed_status": "No"
+    },
+    "tbate": {
+        "suggested_acronym": "TBATE",
+        "title": "The Beginning after the End",
+        "url": "https://www.amazon.com/dp/B0G4S8K7LN",
+        "book_count": 12,
+        "completed_status": "Yes"
+    },
+    "motf": {
+        "suggested_acronym": "MotF",
+        "title": "Mark of the Fool",
+        "url": "https://www.amazon.com/dp/B0G4S8K7LN",
+        "book_count": 10,
+        "completed_status": "Yes"
+    }
+}
