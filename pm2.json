@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "AcroBot",
+      "script": "index.py",
+      "interpreter": "./.venv/bin/python3",
+      "interpreter_args": "-u",
+      "cwd": "/home/ubuntu/AcroBot",
+      "autorestart": true,
+      "watch": false,
+      "max_memory_restart": "1G",
+      "time": true
+    }
+  ]
+}
