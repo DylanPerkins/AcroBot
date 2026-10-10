@@ -10,7 +10,7 @@ _TEMPLATE_KEY = "template"  # Not a real acronym, just the JSON schema entry
 _WORD_RE = re.compile(r"[A-Za-z0-9']+")
 
 _COOLDOWN_RATE = 1      # 1 reply...
-_COOLDOWN_PER = 600    # ...per 15 seconds, per channel
+_COOLDOWN_PER = 45 * 60    # ...per 45 minutes, per channel
 
 
 class Events(commands.Cog):
